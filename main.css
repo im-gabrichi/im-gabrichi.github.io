@@ -1,0 +1,106 @@
+body {
+    background-color: #030711;
+    color: #fff;
+    font-family: Montserrat;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+h1 {
+    color: #e1e7ef;
+}
+
+.navlink {
+    color: #e1e7ef;
+}
+
+main {
+    padding: 12px;
+    flex: 1;
+}
+
+header {
+    background-color: #173056;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 25px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #ffffffaa;
+}
+
+footer {
+    color: #777777;
+    padding: 15px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.page-title {
+    text-align: center;
+}
+
+.page-subtitle {
+    text-align: center;
+    font-size: 15px;
+    color: #7f8ea3;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+}
+
+.box {
+    width: 300px;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    border-radius: 15px;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #00000000;
+    transition: 0.3s;
+}
+.box:hover {
+    cursor: pointer;
+}
+
+.email-box {
+    background-color: #173056;
+}
+.email-box:hover {
+    background-color: #173056aa;
+    border: 1px solid #173056;
+}
+
+.lkd-box {
+    background-color: #588fe5;
+}
+.lkd-box:hover {
+    background-color: #588fe5aa;
+    border: 1px solid #588fe5;
+}
+
+.github-box {
+    background-color: #cac1a1;
+}
+.github-box:hover {
+    background-color: #cac1a1aa;
+    border: 1px solid #cac1a1;
+}
