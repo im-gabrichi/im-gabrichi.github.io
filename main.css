@@ -81,26 +81,43 @@ footer {
     cursor: pointer;
 }
 
-.email-box {
+.db-box {
     background-color: #173056;
 }
-.email-box:hover {
+.db-box:hover {
     background-color: #173056aa;
     border: 1px solid #173056;
 }
 
-.lkd-box {
+.lb-box {
     background-color: #588fe5;
 }
-.lkd-box:hover {
+.lb-box:hover {
     background-color: #588fe5aa;
     border: 1px solid #588fe5;
 }
 
-.github-box {
+.beige-box {
     background-color: #cac1a1;
 }
-.github-box:hover {
+.beige-box:hover {
     background-color: #cac1a1aa;
     border: 1px solid #cac1a1;
+}
+
+.paragraph {
+    text-align: justify;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.subnav {
+    text-decoration: none;
+    color: #e1e7ef;
+    padding-left: 5px;
+    padding-right: 5px;
+    transition: 0.3s;
+}
+.subnav:hover {
+    color: #bfc4cc;
 }
